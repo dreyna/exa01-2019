@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    padding: 30px;
+    height: 600PX;
+    background-color: white;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario{
+ width: 500px;
+ float: left;
+ margin-right: 50PX;
+}
+label{
+    
+    font-size: 14px;
+    padding-top: 10px;
+    display:inline-block;
+}
+.caja{
+    width: 100%;
+    height: 25px;
+}
+header{
+   margin-bottom: 20px;
+}
+h3{
+    margin: 20px 0px 10px 0px;
+    display:inline-block;
+    width: 100%;
+    color: rgb(248, 171, 171);
+}
+.boton{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: rgb(9, 76, 121);
+}
+.btn2{
+    background-color: rgb(13, 121, 9);
+}
+#tablita1, #tablita2{
+    width: 500px;
+    margin-top: 20px;
+}
+hr{
+    width: 100%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    
+  }

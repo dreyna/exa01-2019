@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>PIHUICHO</h1>
+        <hr>
+    </header>
+    <div class="formulario">
+    <aside>
+            <label>TICKET:</label>
+            <input type="text" id="ticket" class="caja">
+            <label>MESA:</label>
+            <select name="a" id="mesa" class="caja">
+                <option value="MESA 01" selected>MESA 01</option>
+                <option value="MESA 02">MESA 02</option>
+                <option value="MESA 03">MESA 03</option>
+            </select>
+            <H3>CLIENTE</H3>
+            <hr>
+            <label for="W">NOMBRES:</label>
+            <input type="text" class="caja" id="nombre">
+            <label for="W">DNI:</label>
+            <input type="text" class="caja" id="dni">
+            <H3>MENU</H3>
+            <hr>
+            <label>PLATO:</label>
+            <select name="a" id="plato" class="caja">
+                <option value="CAU CAU" selected>CAU CAU</option>
+                <option value="CABRITO">CABRITO</option>
+                <option value="LOMO SALTADO">LOMO SALTADO</option>
+            </select>
+            <label>PRECIO:</label>
+            <input type="text" class="caja" id="precio">
+            <label>CANTIDAD:</label>
+            <input type="text" class="caja" id="cantidad">
+            <input type="button" value="GUARDAR" class="boton btn1" onclick="agregar()">
+    </aside>
+    </div>
+    
+    <div class="formulario">
+        <h3>DATOS CLIENTE</h3>
+        <hr>
+        <table id="tablita1">
+            <tr>
+                <th style="width: 30px;">#</th>
+                <th style="width: 50px;">TICKET</th>
+                <th style="width: 50px;">MESA</th>
+                <th style="width: 150px;">CLIENTE</th>
+                <th style="width: 50px;">DNI</th>               
+            </tr>
+        </table>
+        <h3>DATOS MENU</h3>
+        <hr>
+        <table id="tablita2">
+                <tr>
+                    <td>#</td>
+                    <td >PLATO</td>
+                    <td>PRECIO</td>
+                    <td>CANTIDAD</td>
+                    <td>IMPORTE</td>
+                    <td>ELIMINAR</td>               
+                </tr>
+            </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
